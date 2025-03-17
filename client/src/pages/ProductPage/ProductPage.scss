@@ -1,0 +1,58 @@
+.productPage{
+  width: 100%;
+  height: 100%;
+  background-color: #272a32;
+  display: flex;
+  flex-direction: column;
+
+  .productRow{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .productColumn{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .productName{
+        color: #c4cfcf;
+        font-weight: bold;
+      }
+      .productCharacteristics{
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 25px 32px;
+
+        .characteristicsTitle{
+          color: #929a9a;
+          font-weight: bold;
+        }
+
+        .characteristicItems{
+          color: #929a9a;
+          border-bottom: 1px solid lightgray;
+        }
+      }
+    }
+  }
+
+  .productImageContainer{
+    width: 40%;
+    background-color: white;
+    border: 2px solid #702626;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .productImage{
+      width: 500px;
+      height: 400px;
+    }
+  }
+
+
+}

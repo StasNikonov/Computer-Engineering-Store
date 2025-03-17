@@ -1,0 +1,79 @@
+.adminСontainer{
+  background-color: #272a32;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+
+  .buttonsCreateContainer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .createTitle{
+      align-self: center;
+    }
+
+    .adminCreateButton{
+      border: 2px solid #305e30;
+      border-radius: 15px;
+      background-color: #305e30;
+      padding: 10px 16px;
+
+      &:hover{
+        border-color: #5df45d;
+        background-color: #3d9a3d;
+      }
+    }
+  }
+
+  .buttonsDeleteContainer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .deleteTitle{
+      align-self: center;
+    }
+
+    .adminDeleteButton{
+      border: 2px solid #5e3030;
+      border-radius: 15px;
+      background-color: #5e3030;
+      padding: 10px 16px;
+
+      &:hover{
+        border-color: #f45d5d;
+        background-color: #9a3d3d;
+      }
+    }
+  }
+
+  .buttonsUpdateContainer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .updateTitle{
+      align-self: center;
+    }
+
+    .adminUpdateButton{
+      border: 2px solid #5e4c30;
+      border-radius: 15px;
+      background-color: #5e4c30;
+      padding: 10px 16px;
+
+      &:hover{
+        border-color: #f4ae5d;
+        background-color: #9a6f3d;
+      }
+    }
+  }
+}

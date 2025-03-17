@@ -1,0 +1,24 @@
+.categoryBar{
+  margin: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .categoryItem{
+    background-color: rgb(22, 22, 23);
+    width: 200px;
+    color: white;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 7px 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+
+    &:hover{
+      cursor: pointer;
+    }
+
+    &.active{
+      border-color: #702626;
+    }
+  }
+}
